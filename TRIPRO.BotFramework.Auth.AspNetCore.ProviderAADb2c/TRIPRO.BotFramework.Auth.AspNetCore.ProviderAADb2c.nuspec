@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>TRIPRO.BotFramework.Auth.AspNetCore.ProviderAADb2c</id>
-    <version>1.0.7-alpha</version>
+    <version>1.0.7.1</version>
     <title>BotAuth AADb2c Provider .Net Core 2.0</title>
     <authors>3 PRO</authors>
     <owners>3 PRO</owners>
@@ -17,7 +17,7 @@
       <dependency id="Microsoft.Bot.Builder" version="3.13.0.3" />
       <dependency id="Microsoft.Bot.Connector.AspNetCore" version="2.0.0.8" />
       <dependency id="Newtonsoft.Json" version="10.0.3" />
-      <dependency id="BotAuth.AspNetCore" version="1.0.7-alpha" include="all" />
+      <dependency id="BotAuth.AspNetCore" version="1.0.7.1" />
     </dependencies>
   </metadata>
   <files>

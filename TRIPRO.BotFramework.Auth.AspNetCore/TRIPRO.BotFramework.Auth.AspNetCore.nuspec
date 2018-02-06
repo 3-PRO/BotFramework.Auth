@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>TRIPRO.BotFramework.Auth.AspNetCore</id>
-    <version>1.0.7.1</version>
+    <version>1.0.7.2000</version>
     <title>Bot Framework Authentication ASPNetCore</title>
     <authors>3 PRO</authors>
     <owners>3 PRO</owners>

@@ -7,7 +7,7 @@
     <authors>3 PRO</authors>
     <owners>3 PRO</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <licenseUrl>https://raw.githubusercontent.com/3-PRO/BothAuthNetCore/master/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/3-PRO/BothAuthNetCore/master/LICENSE.md</licenseUrl>
     <description>This package is used for handling OAuth authentication in your Bot based on Microsoft Bot Framework and BotBuilder libraries.
 It contains a Azure AD B2C authentication provider and is dependent on TRIPRO.BotFramework.Auth.AspNetCore.
 Documentation and samples are given in Github repository - https://github.com/3-PRO/BotFramework.Auth</description>

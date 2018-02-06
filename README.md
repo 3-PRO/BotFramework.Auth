@@ -1,6 +1,7 @@
 
 # TRIPRO.BotFramework.Auth.AspNetCore for C# .Net Core 2.0 (Azure AD B2C)
 TRIPRO.BotFramework.Auth.AspNetCore is a package for handling authentication in a bot built using the Microsoft Bot Framework and BotBuilder libraries. It contains a core library that handles authentication, a set of providers that are dependency injected into the core library, and sample that leverage the providers. More specific details are listed below:
+
 Build status                     ![Build Status](https://3pro.visualstudio.com/DefaultCollection/_apis/public/build/definitions/335004d6-fa7c-48da-88dc-1193c4dd52fc/51/badge)                                   
 Botframework.Auth                ![NuGet BotFramework.Auth version](https://img.shields.io/nuget/v/TRIPRO.BotFramework.Auth.AspNetCore.svg)                                   
 Botframework.Auth                ![NuGet BotFramework.Auth downloads](https://img.shields.io/nuget/dt/TRIPRO.BotFramework.Auth.AspNetCore.svg)                                

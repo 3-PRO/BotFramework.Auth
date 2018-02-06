@@ -3,7 +3,7 @@
   <metadata>
     <id>TRIPRO.BotFramework.Auth.AspNetCore.ProviderAADb2c</id>
     <version>1.0.7.1</version>
-    <title>BotAuth AADb2c Provider .Net Core 2.0</title>
+    <title>BotFramework Authentication AADb2c Provider .Net Core 2.0</title>
     <authors>3 PRO</authors>
     <owners>3 PRO</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -21,6 +21,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Debug\net471\TRIPRO.BotFramework.Auth.AspNetCore.ProviderAADb2c.dll" target="lib\net471" />
+    <file src="bin\Release\net471\TRIPRO.BotFramework.Auth.AspNetCore.ProviderAADb2c.dll" target="lib\net471" />
   </files>
 </package>

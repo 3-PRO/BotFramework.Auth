@@ -3,15 +3,18 @@
   <metadata>
     <id>TRIPRO.BotFramework.Auth.AspNetCore</id>
     <version>1.0.7.1</version>
-    <title>BotFramework Authentication .Net Core 2.0</title>
+    <title>Bot Framework Authentication ASPNetCore</title>
     <authors>3 PRO</authors>
     <owners>3 PRO</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <licenseUrl>https://raw.githubusercontent.com/3-PRO/BothAuthNetCore/master/LICENSE</licenseUrl>
-    <description>This package is the base package for performing OAuth in a bot built with the Bot Framework (.net core 2.0) and BotBuild libraries. It contains based classes for creating and authentication provider and handles the OAuth flow.</description>
-    <releaseNotes>Initial preview of BotAuth for .net core 2.0.</releaseNotes>
-    <copyright>Copyright 2018</copyright>
-    <tags>BotBuilder BotAuth NetCore AspNetCore DotNet Core</tags>
+    <licenseUrl>https://raw.githubusercontent.com/3-PRO/BothAuthNetCore/master/LICENSE.md</licenseUrl>
+    <description>This package is used for handling OAuth authentication in your Bot based on Microsoft Bot Framework and BotBuilder libraries.
+It contains a core library that handles authentication. Often it is used with additional Auth provider packages.
+Documentation and samples are given in Github repository - https://github.com/3-PRO/BotFramework.Auth
+</description>
+    <releaseNotes>Initial release 1.0</releaseNotes>
+    <copyright>Copyright 3 PRO 2018</copyright>
+    <tags>BotBuilder Bot Authentication OAuth AspNetCore</tags>
     <dependencies>
       <dependency id="Microsoft.AspNetCore" version="2.0.1" />
       <dependency id="Microsoft.Bot.Builder" version="3.13.0.3" />

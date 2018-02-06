@@ -2,25 +2,27 @@
 <package >
   <metadata>
     <id>TRIPRO.BotFramework.Auth.AspNetCore.ProviderAADb2c</id>
-    <version>1.0.7-alpha</version>
-    <title>BotAuth AADb2c Provider .Net Core 2.0</title>
+    <version>1.0.7.1</version>
+    <title>Bot Framework Authentication ASPNetCore - Provider for Azure AD B2C</title>
     <authors>3 PRO</authors>
     <owners>3 PRO</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <licenseUrl>https://raw.githubusercontent.com/3-PRO/BothAuthNetCore/master/LICENSE</licenseUrl>
-    <description>This package is a Azure AD B2C authentication provider for using with the BotAuth package in a Bot Framework/BotBuilder .net core 2.0 Project.</description>
-    <releaseNotes>Initial preview of BotAuth Azure AD B2C authentication provider for .net core 2.0.</releaseNotes>
-    <copyright>Copyright 2018</copyright>
-    <tags>BotBuilder BotAuth NetCore AspNetCore DotNet Core Azure AD B2C Provider</tags>
+    <description>This package is used for handling OAuth authentication in your Bot based on Microsoft Bot Framework and BotBuilder libraries.
+It contains a Azure AD B2C authentication provider and is dependent on TRIPRO.BotFramework.Auth.AspNetCore.
+Documentation and samples are given in Github repository - https://github.com/3-PRO/BotFramework.Auth</description>
+    <releaseNotes>Initial release 1.0</releaseNotes>
+    <copyright>Copyright 3 PRO 2018</copyright>
+    <tags>BotBuilder Bot Authentication OAuth AspNetCore Azure AD B2C Provider</tags>
     <dependencies>
+      <dependency id="TRIPRO.BotFramework.Auth.AspNetCore" version="1.0.7.2000" />
       <dependency id="Microsoft.AspNetCore" version="2.0.1" />
       <dependency id="Microsoft.Bot.Builder" version="3.13.0.3" />
       <dependency id="Microsoft.Bot.Connector.AspNetCore" version="2.0.0.8" />
       <dependency id="Newtonsoft.Json" version="10.0.3" />
-      <dependency id="BotAuth.AspNetCore" version="1.0.7-alpha" include="all" />
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Debug\net471\TRIPRO.BotFramework.Auth.AspNetCore.ProviderAADb2c.dll" target="lib\net471" />
+    <file src="bin\Release\net471\TRIPRO.BotFramework.Auth.AspNetCore.ProviderAADb2c.dll" target="lib\net471" />
   </files>
 </package>

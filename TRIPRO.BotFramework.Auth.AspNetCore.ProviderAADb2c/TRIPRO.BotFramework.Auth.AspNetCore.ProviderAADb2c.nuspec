@@ -15,7 +15,7 @@ Documentation and samples are given in Github repository - https://github.com/3-
     <copyright>Copyright 3 PRO 2018</copyright>
     <tags>BotBuilder Bot Authentication OAuth AspNetCore Azure AD B2C Provider</tags>
     <dependencies>
-      <dependency id="TRIPRO.BotFramework.Auth.AspNetCore" version="1.0.7.2000" />
+      <dependency id="TRIPRO.BotFramework.Auth.AspNetCore" version="1.0.7.2117" />
       <dependency id="Microsoft.AspNetCore" version="2.0.1" />
       <dependency id="Microsoft.Bot.Builder" version="3.13.0.3" />
       <dependency id="Microsoft.Bot.Connector.AspNetCore" version="2.0.0.8" />

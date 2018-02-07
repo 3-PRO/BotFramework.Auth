@@ -10,7 +10,7 @@
     <PackageReference Include="Microsoft.Bot.Builder" Version="3.13.0.3" />
     <PackageReference Include="Microsoft.Bot.Connector.AspNetCore" Version="2.0.0.8" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
-    <PackageReference Include="TRIPRO.BotFramework.Auth.AspNetCore" Version="1.0.7.2000" />
+    <PackageReference Include="TRIPRO.BotFramework.Auth.AspNetCore" Version="1.0.7.2117" />
   </ItemGroup>
 
   <ItemGroup>

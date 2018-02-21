@@ -72,7 +72,6 @@ namespace TRIPRO.BotFramework.Auth.AspNetCore.Controllers
                         {
                             userData.SetProperty($"{authProvider.Name}{ContextConstants.AuthResultKey}", authResult);
                             //parse token and save to claims
-
                             if (authOptions.UseMagicNumber)
                             {
                                 userData.SetProperty($"{authProvider.Name}{ContextConstants.MagicNumberKey}", magicNumber);
@@ -91,8 +90,10 @@ namespace TRIPRO.BotFramework.Auth.AspNetCore.Controllers
                     ContentResult contentResponse = new ContentResult();
                     contentResponse.ContentType = @"text/html";
                     message.Text = String.Empty; // fail the login process if we can't write UserData
-                    ConnectorClient client = new ConnectorClient(new Uri(message.ServiceUrl), credentials);
-                    await client.Conversations.SendToConversationAsync(message);
+
+                    //await Conversation.ResumeAsync(conversationRef, message);
+                    //ConnectorClient client = new ConnectorClient(new Uri(message.ServiceUrl), credentials);
+                    //await client.Conversations.SendToConversationAsync(message);
 
                     if (!writeSuccessful)
                     {

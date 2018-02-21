@@ -30,8 +30,9 @@ namespace TRIPRO.BotFramework.Auth.AspNetCore.SampleAADb2c
         public void ConfigureServices(IServiceCollection services)
         {
             MicrosoftAppCredentials credentials = new MicrosoftAppCredentials(
-            Configuration.GetSection("ConnectionStrings").GetSection("BotFramework").GetSection("MicrosoftAppId")?.Value,
-            Configuration.GetSection("ConnectionStrings").GetSection("BotFramework").GetSection("MicrosoftAppPassword")?.Value);
+                Configuration.GetSection("ConnectionStrings").GetSection("BotFramework").GetSection("MicrosoftAppId")?.Value,
+                Configuration.GetSection("ConnectionStrings").GetSection("BotFramework").GetSection("MicrosoftAppPassword")?.Value
+            );
 
             services
               .AddSingleton(typeof(MicrosoftAppCredentials), credentials);

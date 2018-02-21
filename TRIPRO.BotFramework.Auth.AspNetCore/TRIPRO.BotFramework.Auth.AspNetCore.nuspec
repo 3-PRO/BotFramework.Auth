@@ -17,7 +17,7 @@ Documentation and samples are given in Github repository - https://github.com/3-
     <tags>BotBuilder Bot Authentication OAuth AspNetCore</tags>
     <dependencies>
       <dependency id="Microsoft.AspNetCore" version="2.0.1" />
-      <dependency id="Microsoft.Bot.Builder" version="3.13.0.3" />
+      <dependency id="Microsoft.Bot.Builder" version="3.13.1" />
       <dependency id="Microsoft.Bot.Connector.AspNetCore" version="2.0.0.8" />
     </dependencies>
   </metadata>

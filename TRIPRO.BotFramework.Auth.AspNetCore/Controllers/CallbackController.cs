@@ -109,7 +109,7 @@ namespace TRIPRO.BotFramework.Auth.AspNetCore.Controllers
                         }
                         else
                         {
-                            contentResponse.Content = await (new StringContent($"<html><body>Almost done! Please copy this number and paste it back to your chat so your authentication can complete:<br/> <h1>{magicNumber}</h1>.</body></html>", Encoding.UTF8)).ReadAsStringAsync();
+                            contentResponse.Content = await (new StringContent($"<html><body>Almost done! Please copy Magic number to chat so your authentication can complete - <strong>{magicNumber}</strong>.</body></html>", Encoding.UTF8)).ReadAsStringAsync();
                             return contentResponse;
                         }
                     }
